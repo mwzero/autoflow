@@ -22,12 +22,17 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/htmls/*.html"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/flowy.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/flowy.min.js",
+              "src/assets/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,9 +92,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/flow.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/flowy.min.js"
+            ]
           }
         }
       }
