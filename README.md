@@ -1,6 +1,7 @@
 # Autoflow
 
-A sandbox project to play with flowing about automation and machine learning pipelines.
+![Demo](https://media.giphy.com/media/dv1C56OywrP7Cn20nr/giphy.gif)
+<br>A sandbox project to play with flowing about automation and machine learning pipelines.
 
 ## Development server
 
