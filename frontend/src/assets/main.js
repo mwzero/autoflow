@@ -25,6 +25,7 @@ function initializeFlow() {
     flowy(document.getElementById("canvas"), drag, release, snapping);
     
     function addEventListenerMulti(type, listener, capture, selector) {
+        
         var nodes = document.querySelectorAll(selector);
         for (var i = 0; i < nodes.length; i++) {
             nodes[i].addEventListener(type, listener, capture);
